@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 15.0.1)
+[debug] Load.defaultLoad until apply took 241.729243ms
+[debug]           Load.loadUnit: plugins took 43.433312ms
+[debug]           Load.loadUnit: defsScala took 0.180548ms
+[debug] [Loading] Scanning directory /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.781713 ms
+[debug]               Load.resolveProject(ds-spark-build) took 25.54249ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id ds-spark-build, base: /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/project, plugins: List(<none>))) took 49.425414ms
+[debug] [Loading] Done in /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/project, returning: (ds-spark-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 62.243902ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.168278ms
+[debug]         Load.loadUnit(file:/Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/project/, ...) took 110.077974ms
+[debug]       Load.apply: load took 558.080336ms
+[debug]       Load.apply: resolveProjects took 4.400516ms
+[debug]       Load.apply: finalTransforms took 40.659049ms
+[debug]       Load.apply: config.delegates took 4.880864ms
+[debug]       Load.apply: Def.make(settings)... took 234.83913ms
+[debug]       Load.apply: structureIndex took 64.508891ms
+[debug]       Load.apply: mkStreams took 0.891209ms
+[info] loading project definition from /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1563.910413ms
+[debug]     Load.loadUnit: defsScala took 0.003338ms
+[debug] [Loading] Scanning directory /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark
+[debug]       Load.loadUnit: mkEval took 3.595383ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.405634 ms
+[info] loading settings for project ds-spark from build.sbt ...
+[debug]         Load.resolveProject(ds-spark) took 1.815531ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id ds-spark, base: /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark, plugins: List(<none>))) took 3.648899ms
+[debug] [Loading] Done in /Users/aleksandar77np/Desktop/JoyoDev/DS-Spark, returning: (ds-spark)
+[debug]     Load.loadUnit: loadedProjectsRaw took 104.168987ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.992732ms
+[debug]   Load.loadUnit(file:/Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/, ...) took 1673.092329ms
+[debug] Load.apply: load took 1684.72844ms
+[debug] Load.apply: resolveProjects took 0.083949ms
+[debug] Load.apply: finalTransforms took 7.511995ms
+[debug] Load.apply: config.delegates took 0.406277ms
+[debug] Load.apply: Def.make(settings)... took 75.825263ms
+[debug] Load.apply: structureIndex took 23.557141ms
+[debug] Load.apply: mkStreams took 0.001735ms
+[info] set current project to DS-Spark (in build file:/Users/aleksandar77np/Desktop/JoyoDev/DS-Spark/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/aleksandar77np/.sbt/1.0/server/159d82077e3f7befcb1b/sock
+[debug] Writing bsp connection file
+[info] started sbt server

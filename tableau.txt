@@ -1,0 +1,6 @@
+IF[Ppg] <= 5 THEN '0-5' ELSEIF [Ppg] > 5 and [Ppg] <= 10
+THEN '5-10' ELSEIF [Ppg] > 10 AND [Ppg] <= 15 THEN '10-15'
+ELSEIF  [Ppg] > 15 AND [Ppg] <= 20 THEN '15-20' 
+ELSEIF [Ppg] > 20 AND [Ppg] <= 25 THEN '20-25' 
+ELSE'25+'
+END
