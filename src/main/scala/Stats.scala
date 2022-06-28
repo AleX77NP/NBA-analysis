@@ -4,8 +4,6 @@ import org.apache.spark.sql.types.{DoubleType, FloatType, IntegerType, StringTyp
 
 object Stats {
 
-  // Kaggle link: https://www.kaggle.com/datasets/justinas/nba-players-data
-
   val playerSchema = StructType(Array(
     StructField("index", IntegerType, nullable = true),
     StructField("player_name", StringType, nullable = true),
